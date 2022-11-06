@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/Styles.css">
+    <!--FONT AWESON-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="./js/js.js"></script>
+    <!--LINK -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Teko&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Stick+No+Bills:wght@300;500&family=Teko&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa&family=Stick+No+Bills:wght@300;500&family=Teko&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+        <header>
+            <h1 class="titulo">Juan Perez - Desarrollador web</h1>
+        </header>
+        <div class="nav-color">
+            <nav class="navegacion-principal contenedor">
+            <a href="./Index.html" style="border-bottom: 5px solid  #ffc107">Inicio</a>
+            <a href="./Nosotros.html">Nosotros</a>
+            <a href="./Clientes.html">Clientes</a>
+            <a href="./Contacto.html">Contacto</a>
+            </nav>
+        </div>
+        <!--SECCION DE BANER-->
+        <section class="banner">
+            <div class="banner-content">
+                <h2>Diseño y Desarrollo de aplicaciones web</h2>
+                <img src="./Imagenes/imgubicacion.png" alt="imagen vaner">
+                <p>Ilo, Moquegua</p>
+                <a href="./Contacto.html">Contactar</a>
+            </div>
+        </section>
+        <!--CATEGORIAS-->
+        <section class="contenedor-categorias">
+            <h2 class="text-center">Mis Servicios</h2>
+    
+        <div class="listado-categorias">
+
+                <div class="categoria">
+                    <h3>Diseño web</h3>
+                    <img src="./Imagenes/Diseñoweb.png" alt="Imagen Categoría" class="imgcate" />
+                    <p>Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Sit quos odit cupiditate 
+                        perspiciatis necessitatibus sed impedit, 
+                        eligendi nam debitis ex!</p>
+                    <a href="https://ecdisis.com/que-es-diseno-web/">Mas Informacion</a>
+                </div>
+    
+                <div class="categoria">
+                    <h3>Aplicaciones moviles</h3>
+                    <img src="./Imagenes/Appmoviles.png" alt="Imagen Categoría" class="imgcate"/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Eligendi id deleniti, alias sed, doloremque ipsum asperiores 
+                        mollitia maxime vel nobis aliquid soluta fuga sapiente 
+                        voluptatum.</p>
+                    <a href="https://anincubator.com/que-es-una-aplicacion-movil/">Mas Informacion</a>
+                </div>
+    
+                <div class="categoria">
+                    <h3>E-Commerce</h3>
+                    <img src="./Imagenes/Ecomerce.png" alt="Imagen Categoría" class="imgcate"/>
+                    <p>Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Sit quos odit cupiditate 
+                        perspiciatis necessitatibus sed impedit, 
+                        eligendi nam debitis ex!</p>
+                    <a href="https://www.cyberclick.es/numerical-blog/que-es-un-ecommerce-tipos-como-crearlo-y-ejemplos">Mas Informacion</a>
+                </div>
+            </div>
+        </section>
+        <!--CONTACTO-->
+        <section>
+            <h2 class="text-center">Contacto</h2>
+            <div class="Contacto">
+                
+                <div class="contacto-form">
+                    <h3>Contactenos llenando todos los campos</h3>
+                    <form action="" onsubmit="return validar();" action="./Datosenviados.html"> <!--action="./Datosenviados.html || onsubmit="return validar();"-->
+                        <p><label>Nombre</label><input type="text" name="nombre" id="nombre" required></p>
+                        <p><label>Telefono</label><input type="number" name="telefono" id="telefono" required></p>
+                        <p class="bloc"><label>Email</label><input type="email" name="email" id="email" required></p>                
+                        <p class="bloc"><label>mensaje</label><textarea name="mensaje" rows="3" id="mensaje" required></textarea></p>
+                        <p class="bloc"><button type="submit" >Enviar</button></p> <!--onclick="return validar()"-->
+                        <p class="warning" id="warning"></p>
+                    </form>
+
+                </div>
+                <div class="contacto-info">
+                    <h4>Nuestro contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Ilo moquegua</li>
+                        <li><i class="fas fa-phone"></i>986767654</li>
+                        <li><i class="fas fa-envelope-open-text"></i>juan@gmail.com</li>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, doloribus?</p>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </section>
+        
+        
+        <footer>
+        <p>Todos los derechos reservados. Juan Perez - Desarrollado web</p>
+        </footer>
+        
+     
+</body>
+
+</html>
